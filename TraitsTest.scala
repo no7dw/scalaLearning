@@ -1,3 +1,5 @@
+//trait like java interface
+
 trait Simlilarity {
 	def isSimilar(x: Any) : Boolean
 	def isNotSimilar(x: Any) : Boolean = !isSimilar(x)
@@ -21,6 +23,7 @@ object TraitsTest extends App {
 	println(p1.isNotSimilar(p3));
 	println(p1.isNotSimilar(2));
 }
+
 //asInstanceOf[T]
 // 将对象类型强制转换为T类型, return as possible
 
