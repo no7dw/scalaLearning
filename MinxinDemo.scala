@@ -23,7 +23,6 @@ object MinxinDemo {
 		var tanakaTaro = new Person with TTeacher with TPainoPlayer{
 			def teach = {println("I'm happily teching students.")}
 		}
-		//why this print twice
 		tanakaTaro.playPiano
 		tanakaTaro.teach
 	}
