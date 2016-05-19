@@ -30,7 +30,7 @@ otherwise , [code not work][1]
 
 ## be careful
 
-## 负数
+### 负数
 
 	scala> var a=- 1
      | 
@@ -71,7 +71,7 @@ AnyVa AnyRef
        }
 
 
-
+### case: match Some None
 
 
 
