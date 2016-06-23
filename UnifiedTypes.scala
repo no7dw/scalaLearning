@@ -11,6 +11,9 @@ object UnifiedTypes extends App {
   }
 }
 
+//App object 已经包含main 方法
+// 所有里面的方法都会会在嗲用的时候立刻执行
+
 // scala> UnifiedTypes.main(Array())
 // This is a string
 // 444
